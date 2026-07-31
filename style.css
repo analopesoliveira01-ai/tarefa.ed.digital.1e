@@ -1,13 +1,13 @@
 body{ 
-    background-color: blue;
-    color: #000ff0;
+    background-color: rgb(255, 0, 179);
+    color: #f1f3f8;
     font-family: Arial, sans-serif;
 
 }
 
 header { 
-    background-color:aquamarine;
-    color:aquamarine;
+    background-color:rgb(248, 252, 251);
+    color:rgb(243, 247, 245);
     text-align: center;
     padding: 30px;
     
@@ -19,7 +19,7 @@ h1 {
 
 }
 h2 {
-    color:aqua;
+    color:rgb(245, 245, 245);
 
 }
 p {
