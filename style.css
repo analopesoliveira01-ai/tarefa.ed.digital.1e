@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #8cff00;
+    background-color: #145a32;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 /* CABEÇALHO */
 
 header {
-    background-color: #63b800;
+    background-color: #0b3d20;
     color: white;
     text-align: center;
     padding: 35px 20px;
@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover {
     background-color: white;
-    color: #63b800;
+    color: #0b3d20;
 }
 
 /* CONTEÚDO */
@@ -62,7 +62,7 @@ main {
 }
 
 section {
-    background-color: #70c900;
+    background-color: #145a32;
     color: white;
     padding: 25px;
     margin-bottom: 25px;
@@ -104,10 +104,10 @@ figcaption {
     font-size: 14px;
 }
 
-/* CARDS */
+/* CURIOSIDADES */
 
 .card {
-    background-color: #8cff00;
+    background-color: #1e6b3a;
     color: white;
     padding: 18px;
     margin: 15px 0;
@@ -123,7 +123,7 @@ figcaption {
 /* RODAPÉ */
 
 footer {
-    background-color: #4f9200;
+    background-color: #082817;
     color: white;
     text-align: center;
     padding: 30px;
