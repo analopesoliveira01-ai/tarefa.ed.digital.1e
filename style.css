@@ -1,28 +1,158 @@
-body{ 
-    background-color: rgb(255, 0, 179);
-    color: #f1f3f8;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8cff00;
+    color: white;
     font-family: Arial, sans-serif;
-
 }
 
-header { 
-    background-color:rgb(248, 252, 251);
-    color:rgb(243, 247, 245);
+/* CABEÇALHO */
+
+header {
+    background-color: #63b800;
+    color: white;
     text-align: center;
-    padding: 30px;
-    
-
-}    
-h1 {
-    font-size: 36px;
-
-
+    padding: 35px 20px;
+    border-bottom: 4px solid white;
 }
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* MENU */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #63b800;
+}
+
+/* CONTEÚDO */
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #70c900;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
 h2 {
-    color:rgb(245, 245, 245);
-
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: white;
 }
+
 p {
     font-size: 18px;
     line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS */
+
+figure {
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+/* CARDS */
+
+.card {
+    background-color: #8cff00;
+    color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #4f9200;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top: 4px solid white;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        padding: 18px;
+    }
+
 }
