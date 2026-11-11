@@ -1,24 +1,24 @@
-const botoesCurtir=document.querySelectorAll(".curtir");
-botoesCurtir.forEach(function(botaoCurtir) {
-    let curtir = false;
-    botaoCurtir. addEventLitener("click, curtir");
-funcion curtir(){
-        const contador = botaoCurtir. querySelection ("span);
-            if(curtir === false){
-                contador.textCotent++;
-                curtiu = true;
-
-            }else{
-                contador.textCotent--;
+const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir.forEach(function (botaoCurtir){
+    let curtiu = false;
+    botaoCurtir.addEventListener("click", curtir);
+    function curtir(){
+        const contador = botaoCurtir.querySelector("span");
+        if(curtiu === false){
+            contador.textContent++;
+            curtiu = true;
+        }
+            else{
+                contador.textContent--;
                 curtiu = false;
             }
     }
     
 })
-})
+
 const btnTema = document.querySelector(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
 function mudarTema(){
-    document.body.classList.toggle("tema-escuro")
+        document.body.classList.toggle("tema-escuro")
 }
 
